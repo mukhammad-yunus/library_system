@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Borrow or Return Book</title>
+</head>
+<body>
+    <h2>Borrow Book</h2>
+    <form action="borrow_book.php" method="post">
+        <label>Book ID:</label><br>
+        <input type="number" name="book_id" required><br>
+        <label>Member ID:</label><br>
+        <input type="number" name="member_id" required><br>
+        <label>Librarian ID:</label><br>
+        <input type="number" name="librarian_id" required><br>
+        <label>Borrow Date:</label><br>
+        <input type="date" name="borrow_date" required><br>
+        <label>Due Date:</label><br>
+        <input type="date" name="due_date" required><br><br>
+        <input type="submit" value="Borrow Book">
+    </form>
+
+    <h2>Return Book</h2>
+    <form action="return_book.php" method="post">
+        <label>Loan ID:</label><br>
+        <input type="number" name="loan_id" required><br>
+        <label>Return Date:</label><br>
+        <input type="date" name="return_date" required><br><br>
+        <input type="submit" value="Return Book">
+    </form>
+</body>
+</html>
