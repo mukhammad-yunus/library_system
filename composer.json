@@ -1,0 +1,12 @@
+{
+    "name": "yns/library_system",
+    "authors": [
+        {
+            "name": "Mukhammadyunus",
+            "email": "dr.mukhammadyunus@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
