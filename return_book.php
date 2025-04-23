@@ -1,5 +1,5 @@
 <?php
-include "db_connect";
+include "db_connect.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
   $loan_id = $_POST['loan_id'];
